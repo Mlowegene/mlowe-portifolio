@@ -13,9 +13,9 @@ const Contact = () => {
             <p>I'm open to discussing web development pojects or partnership opportunities.</p>
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-green-400 mr-2'></FaEnvelope>
-                <a href="mailto:youremail@example.com" className='hover:underline'>
+                <span>
                     genemlowe@gmail.com
-                </a>
+                </span>
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-green-400 mr-2'></FaPhone>
