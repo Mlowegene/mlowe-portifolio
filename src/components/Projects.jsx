@@ -42,10 +42,10 @@ function Projects() {
               <p className="text-gray-400 mb-4">{project.technologies}</p>
               <div className="flex gap-4">
               <a href={project.github} className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
+              from-[#2E3192] to-[#1BFFFF] text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
               <a href={project.live} className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
+              from-[#2E3192] to-[#1BFFFF] text-white px-6 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">live</a>
               </div>
             </div>

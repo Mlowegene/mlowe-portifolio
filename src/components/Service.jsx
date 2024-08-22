@@ -34,16 +34,16 @@ function Service() {
                 transition-transform duration-300 hover:scale-105"
                 >
                     <div className="text-right text-2xl font-bold text-transparent 
-                    bg-clip-text bg-gradient-to-r from-green-600 to-blue-400">{service.id}
+                    bg-clip-text bg-gradient-to-r from-[#2E3192] to-[#1BFFFF]">{service.id}
                     </div>
                     <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text 
-                    bg-gradient-to-r from-green-400 to-blue-500">
+                    bg-gradient-to-r from-[#2E3192] to-[#1BFFFF]">
                         {service.title}
                     </h3>
                     <p className="mt-2 text-gray-300">
                         {service.description}
                     </p>
-                    <a href="#" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a>
+                    <a href="#" className="mt-4 inline-block text-[#1BFFFF] hover:text-[#1BFFFF]">Read More</a>
                 </div>
             ))}
         </div>
