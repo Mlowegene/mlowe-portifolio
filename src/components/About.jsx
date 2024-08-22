@@ -10,10 +10,10 @@ function About() {
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0" />
             <div className="flex-1">
                 <p className="text-lg mb-8">
-                I am a passionate in front-end developer with focus on building modern and 
-                responsive web applications. With strong foundation in both frontend and 
-                backend technologies, I strive to create seamless and efficient user 
-                experiences.
+                   Dedicated and skilled Frontend Web Developer with a passion for creating dynamic and
+                   user-friendly web experiences. Proficient in HTML, CSS, JavaScript, and various frontend
+                   frameworks. Seeking opportunities to leverage expertise in frontend development to contribute to
+                   innovative projects and drive user engagement.
                 </p>
                 <div className="space-y-4">
                     <div className="flex items-center">
