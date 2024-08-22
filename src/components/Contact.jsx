@@ -19,7 +19,7 @@ const Contact = () => {
           .then((result) => {
               console.log("result",result.text);
               setIsSent(true); // Show success message
-              setTimeout(() => setIsSent(false), 30000); // Hide message after 30 seconds
+              setTimeout(() => setIsSent(false), 10000); // Hide message after 10 seconds
           }, (error) => {
               console.log(error);
           });
