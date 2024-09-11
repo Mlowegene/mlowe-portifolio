@@ -45,7 +45,7 @@ function About() {
                         <div className="grow bg-gray-800 rounded-full h-2.5">
                             <div className="bg-gradient-to-r from-[#2E3192] to-[#1BFFFF]
                             h-2.5 rounded-full transform transition-transform duration-300 
-                            hover:scale-105 w-8/12"></div>
+                            hover:scale-105 w-9/12"></div>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function About() {
                     </div>
                     <div>
                         <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                            50+
+                            20+
                         </h3>
                         <p>Projects Completed</p>
                     </div>

@@ -1,30 +1,41 @@
 
-import projectImage from "../assets/mlowe.jpg"
+import DashboardImage from "../assets/dashboardImage.png"
+import GithubUserSearch from "../assets/github-search.png"
+import Dictionary from "../assets/Dictionary-App.png"
+import PromptopiaImage from "../assets/Promptopia.png"
 const projects = [
     {
       id: 1,
-      name: "Employee MS",
-      technologies: "MERN Stack",
-      image: projectImage,
-      github: "https://github.com/YouafKhan1",
+      name: "Admin Dashboard",
+      technologies: "Next JS",
+      image: DashboardImage,
+      github: "https://github.com/Mlowegene/NextAdminDashboard",
       live: "https://github.com/YouafKhan1",
     },
     {
       id: 2,
-      name: "Blog App",
-      technologies: "MERN Stack",
-      image: projectImage,
-      github: "https://github.com/YouafKhan1",
-      live: "https://github.com/YouafKhan1",
+      name: "Github User Search",
+      technologies: "React and API",
+      image: GithubUserSearch,
+      github: "https://github.com/Mlowegene/github-user-search-react-app",
+      live: "https://mlowegene.github.io/github-user-search-react-app/",
     },
     {
       id: 3,
-      name: "Book MS",
-      technologies: "MERN Stack",
-      image: projectImage,
-      github: "https://github.com/YouafKhan1",
-      live: "https://github.com/YouafKhan1",
+      name: "Dictionary App",
+      technologies: "React and API",
+      image: Dictionary,
+      github: "https://github.com/Mlowegene/dictionary-web-react-app",
+      live: "https://mlowegene.github.io/dictionary-web-react-app/",
     },
+    {
+      id: 4,
+      name: "Promptopia",
+      technologies: "NextJS, Next-auth and MongoDB",
+      image: PromptopiaImage,
+      github: "https://github.com/Mlowegene/AI-prompts-app",
+      live: "#",
+    }
   ];
 function Projects() {
     
