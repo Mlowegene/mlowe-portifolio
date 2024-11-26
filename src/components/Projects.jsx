@@ -3,6 +3,7 @@ import DashboardImage from "../assets/dashboardImage.png"
 import GithubUserSearch from "../assets/github-search.png"
 import Dictionary from "../assets/Dictionary-App.png"
 import PromptopiaImage from "../assets/Promptopia.png"
+import EmployeeSystemImage from "../assets/EmployeeSystemImage.png"
 const projects = [
     {
       id: 1,
@@ -35,6 +36,14 @@ const projects = [
       image: PromptopiaImage,
       github: "https://github.com/Mlowegene/AI-prompts-app",
       live: "#",
+    },
+    {
+      id: 5,
+      name: "Employee-Management-App",
+      technologies: "ReactJS,NodeJS, Express, Tailwind and MongoDB",
+      image: EmployeeSystemImage,
+      github: "https://github.com/Mlowegene/employee-management-app",
+      live: "https://employee-management-app-kappa.vercel.app",
     }
   ];
 function Projects() {
